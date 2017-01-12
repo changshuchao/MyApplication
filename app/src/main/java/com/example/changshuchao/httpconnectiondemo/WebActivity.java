@@ -35,8 +35,7 @@ public class WebActivity extends AppCompatActivity {
         settings.setJavaScriptEnabled(true);
         settings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
         settings.setDefaultTextEncodingName("gb2312");
-        webView.loadUrl("https://114.255.225.50:8088/index_pc.jsp");
-
+        webView.loadUrl("https://114.255.225.50:8088/icbc/roa/sy/base/view/stdCardView.jsp?sId=PE_APPLICATION_INFO&pkCode=2xejSQZFx4H8F5J0IEKb&replaceUrl=PE_APPLICATION_INFO.byid.do?data={_PK_:2xejSQZFx4H8F5J0IEKb,NI_ID:01RgbJMh10eoICkXhptk}&encUserInfo=%2Fs8DFq9CamKGdzFqBVVwRQ%3D%3D&_SUPMOBILE_=1");
 
         webView.setWebChromeClient(new WebChromeClient() {
             @Override
