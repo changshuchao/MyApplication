@@ -59,9 +59,6 @@ public class HttpThread extends Thread{
                 }
             });
 
-        } catch (MalformedURLException e) {
-            //描述这个url能否被解析的异常
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
